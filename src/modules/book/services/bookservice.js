@@ -5,14 +5,14 @@
 
   function BookFactory($http) {
     function getBook(id) {
-      return $http.get('http://localhost:9000/api/books/'+ id)
+      return $http.get('/api/books/'+ id)
                .then(function(response){
                  return response.data;
                });
     }
 
     function getBooks() {
-      return $http.get('http://localhost:9000/api/books')
+      return $http.get('/api/books')
         .then(function(response){
           return response.data;
         });
