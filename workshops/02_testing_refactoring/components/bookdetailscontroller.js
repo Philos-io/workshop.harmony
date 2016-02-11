@@ -10,7 +10,7 @@
       BookFactory.getBook($routeParams.id)
         .then(function(book){
           angular.extend(this, book);
-        });
+        }.bind(this));
 
     }
   }
