@@ -1,4 +1,3 @@
-
 export default function RouteConfig($routeProvider) {
   $routeProvider
     .when('/', {
@@ -8,14 +7,10 @@ export default function RouteConfig($routeProvider) {
       template: '<books></books>'
     })
     .when('/books/add', {
-      templateUrl: './modules/book/add/add-book.html',
-      controller: 'BookAddController',
-      controllerAs: 'book'
+      template: '<book-add></book-add>'
     })
     .when('/books/:id', {
-      templateUrl: './modules/book/details/book-details.html',
-      controller: 'BookDetailsController',
-      controllerAs: 'book'
+       template: '<book-details></book-details>'
     });
 }
 

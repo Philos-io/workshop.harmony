@@ -1,9 +1,9 @@
 import angular, {module}       from '../../lib/';
-import BookListController      from './list/booklistcontroller';
 import BookDetailsController   from './details/bookdetailscontroller';
+import booksDirective          from './list/booksDirective';
 import BookFactory             from './services/bookservice';
 
 module('book', [])
-  .controller('BookListController', BookListController)
+  .directive('books', booksDirective)
   .controller('BookDetailsController', BookDetailsController)
   .factory('BookFactory', BookFactory);
