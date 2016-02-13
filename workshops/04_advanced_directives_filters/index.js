@@ -1,4 +1,4 @@
-// import angular, {module, bootstrap} from './lib/';
+import angular, {module, bootstrap} from './lib/';
 import routes                       from './routes';
 import mocks                        from './mocks';
 
