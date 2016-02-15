@@ -1,2 +1,3 @@
-bookstore.js
-bookstore.js.map
+dist/bookstore.js
+dist/bookstore.js.map
+node_modules/
