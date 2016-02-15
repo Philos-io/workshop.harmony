@@ -1,0 +1,5 @@
+1. create components out of everything
+2. tests every controller, directives and services
+3. add constant service for title
+4. remove ng-route to use ui-router
+5.
