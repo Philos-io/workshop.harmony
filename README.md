@@ -19,4 +19,4 @@ Now you can run your application by running: `npm start`
 
 Have fun!
 
-[Philos Team](https://www.philos.io)
+[Philos Team](https://philos.io)
