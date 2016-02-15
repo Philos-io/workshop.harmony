@@ -1,9 +1,10 @@
-import angular, {module}       from '../../lib/';
+import angular                 from '../../lib/';
 import BookDetailsController   from './details/bookdetailscontroller';
 import booksDirective          from './list/booksDirective';
 import BookFactory             from './services/bookservice';
+import bookDirective           from './bookComponent/bookDirective';
 
-module('book', [])
+angular.module('book', [])
   .directive('books', booksDirective)
-  .controller('BookDetailsController', BookDetailsController)
+  .directive('book', bookDirective)
   .factory('BookFactory', BookFactory);

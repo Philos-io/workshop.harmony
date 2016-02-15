@@ -1,9 +1,10 @@
 import BookListController from './booklistcontroller';
+import booksTemplate from './books.html';
 
 export default function booksDirective(){
   return {
     restrict: 'EA',
-    templateUrl: './modules/book/list/book.html',
+    template: booksTemplate,
     controller: BookListController,
     controllerAs: 'model'
   };

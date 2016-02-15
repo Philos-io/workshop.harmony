@@ -1,5 +1,5 @@
-import angular, {module} from '../../lib/';
-import NavController     from './nav/navcontroller';
+import angular          from '../../lib/';
+import NavController    from './nav/navcontroller';
 
-module('common', [])
+angular.module('common', [])
   .controller('NavController', NavController);
