@@ -5,7 +5,7 @@ export default function booksDirective(){
     restrict: 'EA',
     template: bookTemplate,
     scope: {
-      book: '=source'
+      book: '='
     }
   };
 }
